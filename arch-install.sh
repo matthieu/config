@@ -93,4 +93,5 @@ echo "The rest requires some manual editing, check step 3"
 # Login, connect to wifi (nmtui-connect) and install gnome as well as some other applications
 #   sudo pacman -Sy gnome tmux alacritty firefox gimp vlc wget
 #   sudo systemctl enable gdm
+#   sudo systemctl enable systemd-timesyncd.service
 
